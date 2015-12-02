@@ -1,5 +1,5 @@
 ###SQButtonImageClick
-####点击矩形按钮中的图片区域.
+####不规则形状按钮点击.
 
 ----------
 ####一、介绍(Introduction)
