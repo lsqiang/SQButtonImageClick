@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KDSectorButton : UIButton
+@interface SQSectorButton : UIButton
 
 @end

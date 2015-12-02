@@ -62,7 +62,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hcR-D7-4cM" userLabel="bottomView">
                                 <rect key="frame" x="0.0" y="220" width="600" height="780"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGr-vG-8f8" customClass="KDSectorButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGr-vG-8f8" customClass="SQSectorButton">
                                         <rect key="frame" x="100" y="53" width="400" height="198"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="DGr-vG-8f8" secondAttribute="height" multiplier="109:54" id="Hpn-pE-OM2"/>
@@ -72,7 +72,7 @@
                                             <action selector="topClick:" destination="5y8-uu-pu7" eventType="touchUpInside" id="NcC-M8-r43"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rud-rs-uI3" customClass="KDSectorButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rud-rs-uI3" customClass="SQSectorButton">
                                         <rect key="frame" x="3" y="151" width="197" height="399"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Rud-rs-uI3" secondAttribute="height" multiplier="36:73" id="NG8-Td-uny"/>
@@ -82,7 +82,7 @@
                                             <action selector="leftClick:" destination="5y8-uu-pu7" eventType="touchUpInside" id="oYq-hf-qPO"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJW-To-4NL" customClass="KDSectorButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJW-To-4NL" customClass="SQSectorButton">
                                         <rect key="frame" x="400" y="150" width="197" height="402"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="SJW-To-4NL" secondAttribute="height" multiplier="107:218" id="uzy-WN-Jo2"/>
@@ -92,7 +92,7 @@
                                             <action selector="rightClick:" destination="5y8-uu-pu7" eventType="touchUpInside" id="8y0-KD-kIr"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07C-nP-WRA" customClass="KDSectorButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07C-nP-WRA" customClass="SQSectorButton">
                                         <rect key="frame" x="100" y="451" width="400" height="197"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="07C-nP-WRA" secondAttribute="height" multiplier="217:107" id="exO-Bb-PzV"/>
@@ -102,15 +102,15 @@
                                             <action selector="bottomClick:" destination="5y8-uu-pu7" eventType="touchUpInside" id="mck-o8-a9r"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scV-0I-J9i" customClass="KDSectorButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scV-0I-J9i" customClass="SQSectorButton">
                                         <rect key="frame" x="0.0" y="633" width="294" height="147"/>
                                         <state key="normal" backgroundImage="shoucangjia_bg"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eo9-hB-79H" customClass="KDSectorButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eo9-hB-79H" customClass="SQSectorButton">
                                         <rect key="frame" x="306" y="633" width="294" height="147"/>
                                         <state key="normal" backgroundImage="shuati_cuotilan_bg"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gx4-s1-VlE" customClass="KDSectorButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gx4-s1-VlE" customClass="SQSectorButton">
                                         <rect key="frame" x="188" y="239" width="224" height="224"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="gx4-s1-VlE" secondAttribute="height" multiplier="1:1" id="uIr-Rl-ptr"/>

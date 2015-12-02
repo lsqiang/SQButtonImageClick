@@ -13,7 +13,7 @@
 		09153C591C0F036B005DD96E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09153C571C0F036B005DD96E /* Main.storyboard */; };
 		09153C5B1C0F036B005DD96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09153C5A1C0F036B005DD96E /* Assets.xcassets */; };
 		09153C5E1C0F036B005DD96E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09153C5C1C0F036B005DD96E /* LaunchScreen.storyboard */; };
-		09153C781C0F0A48005DD96E /* KDSectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09153C751C0F0A48005DD96E /* KDSectorButton.m */; };
+		09153C781C0F0A48005DD96E /* SQSectorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09153C751C0F0A48005DD96E /* SQSectorButton.m */; };
 		09153C791C0F0A48005DD96E /* UIImage+ColorAtPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 09153C771C0F0A48005DD96E /* UIImage+ColorAtPoint.m */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,8 @@
 		09153C5A1C0F036B005DD96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09153C5D1C0F036B005DD96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09153C5F1C0F036B005DD96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09153C741C0F0A48005DD96E /* KDSectorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDSectorButton.h; sourceTree = "<group>"; };
-		09153C751C0F0A48005DD96E /* KDSectorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDSectorButton.m; sourceTree = "<group>"; };
+		09153C741C0F0A48005DD96E /* SQSectorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSectorButton.h; sourceTree = "<group>"; };
+		09153C751C0F0A48005DD96E /* SQSectorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSectorButton.m; sourceTree = "<group>"; };
 		09153C761C0F0A48005DD96E /* UIImage+ColorAtPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPoint.h"; sourceTree = "<group>"; };
 		09153C771C0F0A48005DD96E /* UIImage+ColorAtPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPoint.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,8 +89,8 @@
 		09153C731C0F0A48005DD96E /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				09153C741C0F0A48005DD96E /* KDSectorButton.h */,
-				09153C751C0F0A48005DD96E /* KDSectorButton.m */,
+				09153C741C0F0A48005DD96E /* SQSectorButton.h */,
+				09153C751C0F0A48005DD96E /* SQSectorButton.m */,
 				09153C761C0F0A48005DD96E /* UIImage+ColorAtPoint.h */,
 				09153C771C0F0A48005DD96E /* UIImage+ColorAtPoint.m */,
 			);
@@ -170,7 +170,7 @@
 			files = (
 				09153C561C0F036B005DD96E /* ViewController.m in Sources */,
 				09153C531C0F036B005DD96E /* AppDelegate.m in Sources */,
-				09153C781C0F0A48005DD96E /* KDSectorButton.m in Sources */,
+				09153C781C0F0A48005DD96E /* SQSectorButton.m in Sources */,
 				09153C501C0F036B005DD96E /* main.m in Sources */,
 				09153C791C0F0A48005DD96E /* UIImage+ColorAtPoint.m in Sources */,
 			);

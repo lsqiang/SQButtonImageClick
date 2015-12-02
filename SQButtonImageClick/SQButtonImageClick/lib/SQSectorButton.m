@@ -6,12 +6,12 @@
 //  Copyright © 2015年 withustudy. All rights reserved.
 //
 
-#import "KDSectorButton.h"
+#import "SQSectorButton.h"
 #import "UIImage+ColorAtPoint.h"
 
 #define kAlphaVisibleThreshold (0.1f)
 
-@interface KDSectorButton ()
+@interface SQSectorButton ()
 
 @property (nonatomic, assign) CGPoint previousTouchPoint;
 @property (nonatomic, assign) BOOL previousTouchHitTestResponse;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation KDSectorButton
+@implementation SQSectorButton
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
