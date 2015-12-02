@@ -3,10 +3,10 @@
 
 ----------
 ####一、介绍(Introduction)
-1.图片都是矩形的，UI给我的不规则的按钮图片也是矩形的，只是不规则形状意外设置为了透明色而已。<br>
+1.图片都是矩形的，UI给我的不规则的按钮图片也是矩形的，只是不规则形状以外设置为了透明色而已。<br>
 ![enter image description here](https://github.com/lsqiang/SQButtonImageClick/blob/master/demo1.png)
 ![enter image description here](https://github.com/lsqiang/SQButtonImageClick/blob/master/demo2.png)<br>
-2.要保证只有图片按钮的不规则区域能响应时间，而重叠区域又互相不影响。
+2.要保证只有图片按钮的不规则区域能响应触摸事件，而重叠区域又互相不影响。
 <br><br>
 ----------
 ####二、原理(Principle)
